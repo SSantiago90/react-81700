@@ -6,11 +6,12 @@ const miPromise = new Promise( (resolve,reject) => {
     //reject("Error!")      
 } )
 
+
 function getData(){
   const promiseData = new Promise( (resolve,reject) => { 
     console.log("Solicitando datos a la Base de datos")
     //reject("Algo salió mal")
-    setTimeout( () => { resolve(products) }, 5000)  
+    setTimeout( () => { resolve(products) }, 1500)  
   })
   return promiseData
 }

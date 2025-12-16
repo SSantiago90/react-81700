@@ -1,30 +1,39 @@
-import products from "../data/products"
+
 import Item from "./Item"
 import getData from "../data/mockService"
-
+import './itemlist.css'
+import { useEffect, useState } from "react"
 export default function ItemListContainer(props){
+  const [products, setProducts] = useState([]);
+ 
 
-  console.log( "Promesa:", getData() );
+  // async await / fetch / Sugar sytax
+  async function fetchProducts(){   
+    try {
+      const respuesta = await getData()  
+      setProducts(respuesta);
+    }
+    catch(error){
+      alert(error);
+    }     
+  }
 
-  // async await / fetch
-  getData().then( (respuesta) => {
-    console.log("Promesa terminada")
-    console.log(respuesta)
-  }).catch( (error) => {
-    alert(error)
-  })
+  useEffect( fetchProducts, [])
+ 
  
   return (
     <section>
         <h2>Hola, bienvenidos a mi tienda {props.greeting} </h2>
+        <div className="itemlist">
         {
-            products.map( 
-             (item) => <Item 
-                  key={item.id}
-                   {...item} // spread
-                  />
-            )
+          products.map( 
+            (item) => <Item 
+              key={item.id}
+              {...item} // spread
+            />
+          )
         }       
+        </div>
     </section>      
   )
 }

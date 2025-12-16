@@ -5,7 +5,7 @@ const products = [
     "price": 99.9,
     "category": "xiaomi",
     "stock": 10,
-    "img": "https://carrefourbr.vtexassets.com/arquivos/ids/182538701/image-0.jpg?v=638724823315300000",
+    "img": "https://placehold.co/600x400/9b59b6/FFF?text=Smartphone+Xiaomi+Redmi+Note+13",
     "description": "El equilibrio perfecto entre rendimiento y precio."
   },
   {
@@ -14,7 +14,7 @@ const products = [
     "price": 1299.99,
     "category": "samsung",
     "stock": 5,
-    "img": "https://example.com/images/samsung_s24_ultra.jpg",
+    "img": "https://placehold.co/600x400/1abc9c/FFF?text=Samsung+Galaxy+S24+Ultra",
     "description": "La cúspide de la tecnología móvil con cámara Pro-Grade."
   },
   {
@@ -23,7 +23,7 @@ const products = [
     "price": 1399.0,
     "category": "apple",
     "stock": 7,
-    "img": "https://example.com/images/iphone_15_pro_max.jpg",
+    "img": "https://placehold.co/600x400/f1c40f/FFF?text=iPhone+15+Pro+Max",
     "description": "Potencia inigualable y diseño sofisticado."
   },
   {
@@ -32,7 +32,7 @@ const products = [
     "price": 349.5,
     "category": "motorola",
     "stock": 15,
-    "img": "https://example.com/images/motorola_edge_50_neo.jpg",
+    "img": "https://placehold.co/600x400/34495e/FFF?text=Motorola+Edge+50+Neo",
     "description": "Pantalla curva e inmersiva para el entretenimiento."
   },
   {
@@ -41,7 +41,7 @@ const products = [
     "price": 699.0,
     "category": "google",
     "stock": 8,
-    "img": "https://example.com/images/google_pixel_8.jpg",
+    "img": "https://placehold.co/600x400/e67e22/FFF?text=Google+Pixel+8",
     "description": "La mejor experiencia de Android con IA de Google."
   },
   {
@@ -50,7 +50,7 @@ const products = [
     "price": 899.99,
     "category": "xiaomi",
     "stock": 6,
-    "img": "https://example.com/images/xiaomi_14_pro.jpg",
+    "img": "https://placehold.co/600x400/e74c3c/FFF?text=Xiaomi+14+Pro",
     "description": "Fotografía de alta gama impulsada por Leica."
   },
   {
@@ -59,7 +59,7 @@ const products = [
     "price": 449.0,
     "category": "samsung",
     "stock": 12,
-    "img": "https://example.com/images/samsung_a55.jpg",
+    "img": "https://placehold.co/600x400/2ecc71/FFF?text=Samsung+Galaxy+A55",
     "description": "Gran batería y pantalla vibrante para el día a día."
   },
   {
@@ -68,7 +68,7 @@ const products = [
     "price": 429.99,
     "category": "apple",
     "stock": 20,
-    "img": "https://example.com/images/iphone_se_3gen.jpg",
+    "img": "https://placehold.co/600x400/95a5a6/FFF?text=iPhone+SE+(3ra+Gen)",
     "description": "El chip potente de Apple en un diseño clásico."
   },
   {
@@ -77,7 +77,7 @@ const products = [
     "price": 249.0,
     "category": "motorola",
     "stock": 25,
-    "img": "https://example.com/images/motorola_g84.jpg",
+    "img": "https://placehold.co/600x400/3498db/FFF?text=Motorola+G84",
     "description": "Rendimiento sólido a un precio accesible."
   },
   {
@@ -86,7 +86,7 @@ const products = [
     "price": 999.0,
     "category": "google",
     "stock": 4,
-    "img": "https://example.com/images/google_pixel_8_pro.jpg",
+    "img": "https://placehold.co/600x400/9b59b6/FFF?text=Google+Pixel+8+Pro",
     "description": "El smartphone más inteligente de Google."
   },
   {
@@ -95,7 +95,7 @@ const products = [
     "price": 399.0,
     "category": "xiaomi",
     "stock": 18,
-    "img": "https://example.com/images/xiaomi_poco_f6.jpg",
+    "img": "https://placehold.co/600x400/1abc9c/FFF?text=Xiaomi+POCO+F6",
     "description": "Ideal para *gaming* con refrigeración avanzada."
   },
   {
@@ -104,7 +104,7 @@ const products = [
     "price": 1799.99,
     "category": "samsung",
     "stock": 3,
-    "img": "https://example.com/images/samsung_z_fold_6.jpg",
+    "img": "https://placehold.co/600x400/f1c40f/FFF?text=Samsung+Galaxy+Z+Fold+6",
     "description": "Transforma tu móvil en una tablet."
   },
   {
@@ -113,7 +113,7 @@ const products = [
     "price": 799.0,
     "category": "apple",
     "stock": 10,
-    "img": "https://example.com/images/iphone_15.jpg",
+    "img": "https://placehold.co/600x400/34495e/FFF?text=iPhone+15",
     "description": "Un salto adelante en fotografía y rendimiento."
   },
   {
@@ -122,7 +122,7 @@ const products = [
     "price": 999.0,
     "category": "motorola",
     "stock": 5,
-    "img": "https://example.com/images/motorola_razr_40_ultra.jpg",
+    "img": "https://placehold.co/600x400/e67e22/FFF?text=Motorola+Razr+40+Ultra",
     "description": "El icónico diseño plegable renovado."
   },
   {
@@ -131,7 +131,7 @@ const products = [
     "price": 799.0,
     "category": "oneplus",
     "stock": 9,
-    "img": "https://example.com/images/oneplus_12.jpg",
+    "img": "https://placehold.co/600x400/e74c3c/FFF?text=OnePlus+12",
     "description": "Velocidad extrema con carga ultrarrápida."
   },
   {
@@ -140,7 +140,7 @@ const products = [
     "price": 319.0,
     "category": "xiaomi",
     "stock": 14,
-    "img": "https://example.com/images/redmi_note_13_pro_plus.jpg",
+    "img": "https://placehold.co/600x400/2ecc71/FFF?text=Xiaomi+Redmi+Note+13+Pro%2B",
     "description": "Cámara principal de 200MP asequible."
   },
   {
@@ -149,7 +149,7 @@ const products = [
     "price": 999.99,
     "category": "samsung",
     "stock": 6,
-    "img": "https://example.com/images/samsung_s24_plus.jpg",
+    "img": "https://placehold.co/600x400/95a5a6/FFF?text=Samsung+Galaxy+S24%2B",
     "description": "Más pantalla y más batería que el S24 estándar."
   },
   {
@@ -158,7 +158,7 @@ const products = [
     "price": 1099.0,
     "category": "apple",
     "stock": 8,
-    "img": "https://example.com/images/iphone_15_pro.jpg",
+    "img": "https://placehold.co/600x400/3498db/FFF?text=iPhone+15+Pro",
     "description": "Titanio, chip A17 Pro y botón de acción personalizable."
   },
   {
@@ -167,7 +167,7 @@ const products = [
     "price": 119.99,
     "category": "motorola",
     "stock": 30,
-    "img": "https://example.com/images/motorola_e13.jpg",
+    "img": "https://placehold.co/600x400/9b59b6/FFF?text=Motorola+E13",
     "description": "Funcionalidad básica y gran autonomía."
   },
   {
@@ -176,7 +176,7 @@ const products = [
     "price": 499.0,
     "category": "google",
     "stock": 11,
-    "img": "https://example.com/images/google_pixel_7a.jpg",
+    "img": "https://placehold.co/600x400/1abc9c/FFF?text=Google+Pixel+7a",
     "description": "Cámara de alta calidad a un precio intermedio."
   },
   {
@@ -185,7 +185,7 @@ const products = [
     "price": 549.0,
     "category": "xiaomi",
     "stock": 7,
-    "img": "https://example.com/images/xiaomi_13t.jpg",
+    "img": "https://placehold.co/600x400/f1c40f/FFF?text=Xiaomi+13T",
     "description": "Rendimiento de flagship con HyperCharge."
   },
   {
@@ -194,7 +194,7 @@ const products = [
     "price": 1099.99,
     "category": "samsung",
     "stock": 4,
-    "img": "https://example.com/images/samsung_z_flip_6.jpg",
+    "img": "https://placehold.co/600x400/34495e/FFF?text=Samsung+Galaxy+Z+Flip+6",
     "description": "Diseño compacto y elegante que cabe en cualquier bolsillo."
   },
   {
@@ -203,7 +203,7 @@ const products = [
     "price": 699.0,
     "category": "apple",
     "stock": 9,
-    "img": "https://example.com/images/iphone_14_plus.jpg",
+    "img": "https://placehold.co/600x400/e67e22/FFF?text=iPhone+14+Plus",
     "description": "Pantalla grande y la mejor batería en un iPhone."
   },
   {
@@ -212,7 +212,7 @@ const products = [
     "price": 199.0,
     "category": "motorola",
     "stock": 22,
-    "img": "https://example.com/images/motorola_g54.jpg",
+    "img": "https://placehold.co/600x400/e74c3c/FFF?text=Motorola+G54",
     "description": "Conectividad 5G al alcance de todos."
   },
   {
@@ -221,7 +221,7 @@ const products = [
     "price": 449.0,
     "category": "oneplus",
     "stock": 16,
-    "img": "https://example.com/images/oneplus_nord_3.jpg",
+    "img": "https://placehold.co/600x400/2ecc71/FFF?text=OnePlus+Nord+3",
     "description": "La experiencia *flagship* a precio Nord."
   },
   {
@@ -230,7 +230,7 @@ const products = [
     "price": 289.0,
     "category": "xiaomi",
     "stock": 13,
-    "img": "https://example.com/images/xiaomi_poco_x6_pro.jpg",
+    "img": "https://placehold.co/600x400/95a5a6/FFF?text=Xiaomi+POCO+X6+Pro",
     "description": "El rey de la gama media en rendimiento."
   },
   {
@@ -239,7 +239,7 @@ const products = [
     "price": 599.0,
     "category": "samsung",
     "stock": 10,
-    "img": "https://example.com/images/samsung_s23_fe.jpg",
+    "img": "https://placehold.co/600x400/3498db/FFF?text=Samsung+Galaxy+S23+FE",
     "description": "Lo esencial de la serie S, para los fans."
   },
   {
@@ -248,7 +248,7 @@ const products = [
     "price": 599.0,
     "category": "apple",
     "stock": 15,
-    "img": "https://example.com/images/iphone_14.jpg",
+    "img": "https://placehold.co/600x400/9b59b6/FFF?text=iPhone+14",
     "description": "Un móvil potente y seguro para el día a día."
   },
   {
@@ -257,7 +257,7 @@ const products = [
     "price": 1699.0,
     "category": "google",
     "stock": 2,
-    "img": "https://example.com/images/google_pixel_fold.jpg",
+    "img": "https://placehold.co/600x400/1abc9c/FFF?text=Google+Pixel+Fold",
     "description": "El primer plegable de Google con diseño único."
   },
   {
@@ -266,7 +266,7 @@ const products = [
     "price": 1499.0,
     "category": "oneplus",
     "stock": 3,
-    "img": "https://example.com/images/oneplus_open.jpg",
+    "img": "https://placehold.co/600x400/f1c40f/FFF?text=OnePlus+Open",
     "description": "Un plegable ultraligero con rendimiento OnePlus."
   }
 ]
