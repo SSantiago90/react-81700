@@ -1,4 +1,6 @@
-export default function Item( {title, img, price} ){
+import { Link } from "react-router"
+
+export default function Item( {title, img, price, id} ){
   
   console.log("Ciclo de vida: Montaje")
 
@@ -7,7 +9,10 @@ export default function Item( {title, img, price} ){
       <h3>{title}</h3>
       <img width="220" src={img} />
       <p>$ {price}</p>      
-      <button>Ver producto</button>
+      
+      <Link to={`/product/${id}`}>
+        <button>Ver producto</button>
+      </Link>
     </div> 
   )  
 }

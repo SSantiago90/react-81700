@@ -16,4 +16,21 @@ function getData(){
   return promiseData
 }
 
+export function getItemData(itemID){
+   const promiseData = new Promise( (resolve,reject) => { 
+      const itemRequested = products.find( (item) => item.id === Number(itemID) )
+      // TODO: agregar error hanlding cuando no se encuentra el product
+      setTimeout( () => resolve(itemRequested), 1000)
+  })
+  return promiseData
+}
+
+export function getCategoryData(categoryID){
+  return new Promise( (resolve) => {
+    const itemsCategory = products.filter( item => item.category === categoryID)
+    // TODO: agregar error hanlding cuando no se encuentran elementos -> reject
+    setTimeout( () => {resolve(itemsCategory)}, 1500)
+  })
+}
+
 export default getData;

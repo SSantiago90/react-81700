@@ -1,12 +1,18 @@
+import { NavLink } from "react-router"
 export default function NavBar(){
   return (
     <nav>
-      <h2>Logo</h2>
+      <NavLink to="/">
+        <h2>Logo</h2>
+      </NavLink>
       <li>
-        <a href="#">Samsung</a>
+        <NavLink to="/category/Samsung">Samsung</NavLink>
       </li>
       <li>
-        <a href="#">Xiaomi</a>
+        <NavLink to="/category/xiaomi">Xiaomi</NavLink>
+      </li>
+      <li>
+        <NavLink to="/category/motorola">Motorola</NavLink>
       </li>
       {/* CartWidget  */}
     </nav>
