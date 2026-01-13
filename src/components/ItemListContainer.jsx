@@ -23,7 +23,7 @@ export default function ItemListContainer(props){
   }, [categoryID])
   
   return (
-    <section>
+    <section className="item-list-container">
         <h2>Hola, bienvenidos a mi tienda {props.greeting} </h2>
         <div className="itemlist">
         {

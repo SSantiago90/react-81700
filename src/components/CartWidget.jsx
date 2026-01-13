@@ -1,3 +1,10 @@
+import { useContext } from "react"
+import cartContext from "../context/cartContext";
+
+
 export default function CartWidget(){
-  return <span>🛒</span>
+  const { countItemsInCart } = useContext(cartContext);
+  // * VALUE
+  
+  return <span>🛒 ( { countItemsInCart() })</span>
 }

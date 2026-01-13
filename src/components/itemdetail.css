@@ -1,0 +1,55 @@
+/* Dark Theme ItemDetail */
+.item-detail {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-color: #1e1e1e; /* Dark card background */
+  border: 1px solid #333;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* Stronger shadow for dark mode */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  color: #e0e0e0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.item-detail img {
+  max-width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: #f7f7f7; /* keeps product BG light if transparent, or remove if images are full bleeds */
+  padding: 1rem; /* Padding for the image container */
+}
+
+.item-detail h2 {
+  font-size: 2.2rem;
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+}
+
+.item-detail p {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  line-height: 1.6;
+  max-width: 700px;
+  text-align: center;
+}
+
+.item-detail hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: #333;
+  margin: 1rem 0;
+}
+
+.item-detail h4 {
+  font-size: 2rem;
+  color: #a6e22e; /* Vibrant green or accent color */
+  margin: 0.5rem 0;
+  font-weight: 700;
+}
