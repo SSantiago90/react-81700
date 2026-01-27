@@ -3,12 +3,12 @@ import {  addDoc, collection, doc, getDoc, getDocs, getFirestore, query, where }
 import products from "./products";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB1niVn_x4vN1P8EorPfTljUx7G6Z_jqbU",
+  apiKey: import.meta.env.VITE_FIREBASE_APIKEY,
   authDomain: "coder-81700.firebaseapp.com",
   projectId: "coder-81700",
   storageBucket: "coder-81700.firebasestorage.app",
   messagingSenderId: "562532740949",
-  appId: "1:562532740949:web:027978cca217e0ab8b89dc"
+  appId: import.meta.env.VITE_FIREBASE_APPID
 };
 
 const app = initializeApp(firebaseConfig);
@@ -31,6 +31,13 @@ export async function getData(){
 }
 
 
+/**
+ * Devuelve un objeto con los datos de un item por su ID.
+ * El objeto devuelto tiene la forma de { ...itemData, id: itemID }
+ * Si el item no existe, lanza un error.
+ * @param {string} itemID - El ID del item a buscar.
+ * @returns {Promise<Object>} - Un objeto con los datos del item.
+ */
 export async function getItemData(itemID){
   const documentRef = doc(db, "products", itemID);
   const docSnapshot = await getDoc(documentRef)
